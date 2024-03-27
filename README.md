@@ -1,1 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-wagmi`](https://github.com/wevm/wagmi/tree/main/packages/create-wagmi).
+# RPC Demo
+
+Demo project showcasing new RPC methods described [here](https://hackmd.io/@lsr/proposal-for-new-wallet-rpcs).
+
+## Setup
+
+```bash
+pnpm install
+```
+
+## Running the dev server
+
+```bash
+pnpm dev
+```

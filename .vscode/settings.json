@@ -1,0 +1,7 @@
+{
+  "editor.defaultFormatter": "dprint.dprint",
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "biome.enabled": false,
+  "prettier.enable": false
+}
