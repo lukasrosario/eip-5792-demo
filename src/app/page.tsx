@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect } from 'react'
 import { useAccount, useConnect, useSwitchChain } from 'wagmi'
-import { Swap } from './components/Swap/Swap'
+import { Supply } from './components/Supply/Supply'
 import { truncateMiddle } from './util/turncateMiddle'
 
 function App() {
@@ -20,17 +20,17 @@ function App() {
 
   return (
     <div className="flex relative flex-col h-screen w-full items-center justify-center bg-zinc-900">
-      <span className="absolute top-8 left-12 text-white text-3xl">Swapper</span>
+      <span className="absolute top-8 left-12 text-green-400 text-3xl">Compound Supplier</span>
       <div className="absolute flex top-8 right-12">
         <button
           onClick={handleConnect}
           type="button"
-          className="bg-zinc-800 text-white w-48 py-2 rounded-md shadow-2xl"
+          className="bg-zinc-800 text-green-400 w-48 py-2 rounded-md shadow-2xl"
         >
           {address ? truncateMiddle(address, 6, 3) : connectors[0].name}
         </button>
       </div>
-      <Swap />
+      <Supply />
     </div>
   )
 }

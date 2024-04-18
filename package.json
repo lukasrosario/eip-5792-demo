@@ -11,14 +11,9 @@
   },
   "dependencies": {
     "@tanstack/react-query": "5.0.5",
-    "@uniswap/sdk-core": "^4.2.0",
-    "@uniswap/v3-core": "^1.0.1",
-    "@uniswap/v3-periphery": "^1.4.4",
-    "@uniswap/v3-sdk": "^3.11.0",
     "next": "13.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "turboviem": "^0.0.3",
     "viem": "latest",
     "wagmi": "latest"
   },
@@ -52,5 +47,8 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5.2.2",
     "utf-8-validate": "^6.0.3"
+  },
+  "resolutions": {
+    "@coinbase/wallet-sdk": "4.0.0-beta.6"
   }
 }
