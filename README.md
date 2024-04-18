@@ -1,6 +1,6 @@
 # RPC Demo
 
-Demo project showcasing new RPC methods described [here](https://hackmd.io/@lsr/proposal-for-new-wallet-rpcs).
+Demo project showcasing [EIP-5792](https://eips.ethereum.org/EIPS/eip-5792) RPC methods.
 
 ## Setup
 
